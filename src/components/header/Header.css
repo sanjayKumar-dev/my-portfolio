@@ -1,5 +1,5 @@
 .header {
-    margin: 1rem 5rem 0 5rem;
+    margin: 1rem 5% 0 5%;
 
     .dot {
         width: 0.5rem;
@@ -36,9 +36,13 @@
         }
 
         span {
-            font-size: 14px;
+            font-size: 13px;
             line-height: 100%;
         }
+    }
+
+    .action {
+        display: none;
     }
 
     .contact-text {
@@ -51,5 +55,58 @@
 
     .contact-text:hover {
         color: var(--nav-color);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .header {
+        .nav {
+            display: none;
+        }
+
+        .contact {
+            a {
+                display: none;
+            }
+
+            .action {
+                display: block;
+
+                div {
+                    width: 30px;
+                    background-color: #fff;
+                    height: 1px;
+                    -webkit-transition: transform .4s ease-in-out;
+                }
+
+                .top-line {
+                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                }
+
+                .bottom-line {
+                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                }
+
+                .top-line-open {
+                    transform: translate3d(0px, 7px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                }
+
+                .bottom-line-open {
+                    transform: translate3d(0px, -7px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                }
+
+                .middle-line {
+                    opacity: 1;
+                }
+
+                .middle-line-open {
+                    opacity: 0;
+                }
+            }
+        }
     }
 }

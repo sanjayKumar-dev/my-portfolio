@@ -6,3 +6,11 @@
         height: 85vh;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    #main {
+        .first-container {
+            height: 95vh;
+        }
+    }
+}
