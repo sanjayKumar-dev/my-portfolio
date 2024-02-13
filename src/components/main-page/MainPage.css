@@ -146,9 +146,9 @@
 }
 
 @media only screen and (max-width: 950px) {
-    #main {
+    /* #main {
         .first-container {
             height: 95vh;
         }
-    }
+    } */
 }
