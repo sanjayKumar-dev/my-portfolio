@@ -1,0 +1,16 @@
+.projects {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 1rem 5% 1rem 5%;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+.project-container {
+    div{
+        min-width: 20rem;
+    }
+}

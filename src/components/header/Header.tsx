@@ -29,10 +29,10 @@ function Header() {
                     </div>
                 </div>
                 <div className='nav flex'>
-                    <a href="/my-work">My Work</a>
+                    <a href="#my-work">My Work</a>
                     <a href="/about-me">About Me</a>
                     <a href="/blogs">Blogs</a>
-                    <a href="/exprience">Experience</a>
+                    <a href="#exprience">Experience</a>
                 </div>
                 <div className='contact'>
                     <a href="/contact" className='flex justify-center items-center'>
