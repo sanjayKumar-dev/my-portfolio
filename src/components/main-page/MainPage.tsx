@@ -3,6 +3,8 @@ import './MainPage.css'
 import Image from "next/image"
 import image from '../../../public/codeImage.jpg'
 import trendingLogo from '../../../public/trending.svg'
+import Projects from './projects/Projects'
+import Exprience from './exprience/Exprience'
 
 function MainPage() {
   return (
@@ -47,6 +49,13 @@ function MainPage() {
           </div>
         </div>
       </div>
+      <section id='exprience'>
+        <Exprience />
+      </section>
+      {/* <section id='my-work'>
+        <Projects />
+      </section> */}
+
     </div>
   )
 }
