@@ -5,6 +5,7 @@ import image from '../../../public/codeImage.jpg'
 import trendingLogo from '../../../public/trending.svg'
 import Projects from './projects/Projects'
 import Exprience from './exprience/Exprience'
+import AboutMe from './about-me/AboutMe'
 
 function MainPage() {
   return (
@@ -55,6 +56,10 @@ function MainPage() {
       {/* <section id='my-work'>
         <Projects />
       </section> */}
+
+      <section id='exprience'>
+        <AboutMe />
+      </section>
 
     </div>
   )
