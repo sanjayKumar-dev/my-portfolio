@@ -11,7 +11,7 @@ function Projects() {
         <div className='projects'>
             <h1 className=''>My Projects</h1>
             <div className="flex flex-wrap project-container ">
-                <div className="flex-auto p-4">
+                <div className="flex-auto">
                     <div>
                         <Image src={project1} alt='project1' />
                         <div className='flex justify-between mt-2'>
@@ -28,7 +28,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-auto p-4">
+                <div className="flex-auto">
                     <div>
                         <Image src={project2} alt='project1' />
                         <div className='flex justify-between mt-2'>
@@ -42,7 +42,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-auto p-4">
+                <div className="flex-auto">
                     <div>
                         <Image src={project3} alt='project1' />
                         <div className='flex justify-between mt-2'>
@@ -57,7 +57,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-auto p-4">
+                <div className="flex-auto">
                     <div>
                         <Image src={project4} alt='project1' />
                         <div className='flex justify-between'>

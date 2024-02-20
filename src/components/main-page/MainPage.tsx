@@ -6,6 +6,7 @@ import trendingLogo from '../../../public/trending.svg'
 import Projects from './projects/Projects'
 import Exprience from './exprience/Exprience'
 import AboutMe from './about-me/AboutMe'
+import Tech from './tech/Tech'
 
 function MainPage() {
   return (
@@ -59,6 +60,13 @@ function MainPage() {
 
       <section id='exprience'>
         <AboutMe />
+      </section>
+      <section>
+        <Tech />
+      </section>
+
+      <section id='my-work'>
+        <Projects />
       </section>
 
     </div>

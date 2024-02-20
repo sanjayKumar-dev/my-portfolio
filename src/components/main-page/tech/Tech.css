@@ -1,0 +1,57 @@
+.tech-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* display: flex; */
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-container-image {
+    margin: 2%;
+    width: 200px;
+    height: 200px;
+
+    Image svg:hove path {
+        fill: #fff;
+    }
+}
+
+.tech-imgage:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(-178deg) brightness(100%) contrast(100%);
+
+}
+
+@media (max-width: 800px) {
+    /* .icon-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .icon-container-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tech-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 53px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .icon-container-image {
+        width: 50px;
+        height: 50px;
+    }
+}
